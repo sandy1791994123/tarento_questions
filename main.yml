@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: hostnamename_ipaddress
+    template:
+       src: test.j2
+       dest: home/ubunutu/test
